@@ -1,0 +1,274 @@
+<html>
+<div class="container-fluid">
+  <div class="col-md-12">
+    <h3>DESIRED TABLE LAYOUT CONTROLS</h3>
+    <table class="table table-striped table-hover table-sm">
+      <thead class="thead-dark">
+      <tr>
+        <th>VM Control</th>
+        <th>VM Connect</th>
+        <th>Brand</th>
+        <th>Model</th>
+        <th>Client</th>
+        <th>Location</th>
+        <th class="text-center">Planogram</th>
+        <th class="text-center">Warehouse</th>
+        <th class="text-center">Standby</th>
+        <th style="width: 158px">
+          <div class="pull-right">
+            <a href="#" class="btn btn-success" style="width: 143px"><i class="fa fa-plus"></i> Add Machine</a>
+          </div>
+        </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>12345</td>
+        <td>S000000001</td>
+        <td>Vendo</td>
+        <td>630</td>
+        <td>Mcliff</td>
+        <td>Office</td>
+        <td class="text-center"><a class="btn btn-boolean btn-success" data-toggle="tooltip" data-placement="top" title="Yes"><i class="fa fa-check"></i></a></td>
+        <td class="text-center"><a class="btn btn-boolean btn-danger" data-toggle="tooltip" data-placement="top" title="No"><i class="fa fa-times"></i></a></td>
+        <td class="text-center"><a class="btn btn-boolean btn-danger" data-toggle="tooltip" data-placement="top" title="No"><i class="fa fa-times"></i></a></td>
+        <td>
+          <div class="pull-right">
+          <a href="#" class="btn btn-crud btn-info" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-search"></i></a>
+          <a href="#" class="btn btn-crud btn-primary" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a>
+          <a href="#" class="btn btn-crud btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>67890</td>
+        <td>S000000002</td>
+        <td>Vendo</td>
+        <td>630</td>
+        <td>Mcliff</td>
+        <td>Parking</td>
+        <td class="text-center"><a class="btn btn-boolean btn-success" data-toggle="tooltip" data-placement="top" title="Yes"><i class="fa fa-check"></i></a></td>
+        <td class="text-center"><a class="btn btn-boolean btn-danger" data-toggle="tooltip" data-placement="top" title="No"><i class="fa fa-times"></i></a></td>
+        <td class="text-center"><a class="btn btn-boolean btn-danger" data-toggle="tooltip" data-placement="top" title="No"><i class="fa fa-times"></i></a></td>
+        <td>
+          <div class="pull-right">
+          <a href="#" class="btn btn-crud btn-info" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-search"></i></a>
+          <a href="#" class="btn btn-crud btn-primary" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a>
+          <a href="#" class="btn btn-crud btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></a>
+          </div>
+        </td>
+      </tr>
+      </tbody>
+      <tfoot class="thead-dark">
+        <tr>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search VM Control">
+          </th>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search VM Connect">
+          </th>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search Brand">
+          </th>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search Model">
+          </th>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search Client">
+          </th>
+          <th>
+            <input type="text" class="form-control input-sm" placeholder="Search Location">
+          </th>
+          <th>
+            <select class="form-control">
+              <option></option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </th>
+          <th>
+            <select class="form-control">
+              <option></option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </th>
+          <th>
+            <select class="form-control">
+              <option></option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </th>
+          <th>
+          </th>
+        </tr>
+      </tfoot>
+    </table>
+    <br><hr>
+    <h3>DESIRED FORM LAYOUTS</h3>
+    
+    <div class="card">
+      <div class="card-header">NEW VENDING MACHINE</div>
+      <div class="card-body">
+        <form>
+          <div class="row">
+  <div class="form-group col-md-3">
+    
+    <label for="exampleInputEmail1">VM Control</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Vending Machine Control Number">
+    <small id="emailHelp" class="form-text text-muted">This would help you identify the vending machine.</small>
+          </div>
+  <div class="form-group col-md-3">
+    
+    <label for="exampleInputPassword1">Asset Number</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Vending Machine Asset Number">
+  
+          </div>
+          </div>
+  <div class="pull-right">
+  <button type="submit" class="btn btn-danger">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-success">Save</button>
+</form>                                                                                                                        </div>
+      </div>
+    </div>
+    
+    
+    <br><hr>
+    <h3>CRUD BUTTONS CODE</h3>
+    <br>
+    <table class="table">
+      <tr>
+        <th>
+          New Button
+        </th>
+        <td>
+        <a href="#" class="btn btn-crud btn-success" data-toggle="tooltip" data-placement="top" title="New"><i class="fa fa-plus"></i></a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-crud btn-success"
+data-toggle="tooltip" data-placement="top" title="New"&gt;
+  &lt;i class="fa fa-plus"&gt;&lt;/i&gt;
+&lt;/a&gt;</pre>
+      </td>
+      
+        <td>
+        <a href="#" class="btn btn-success"><i class="fa fa-plus"></i> New</a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-success"&gt;
+  &lt;i class="fa fa-plus"&gt;&lt;/i&gt; New
+&lt;/a&gt;</pre>
+      </td>
+      </tr>
+      <tr>
+        <th>
+          View Button
+        </th>
+        <td>
+        <a href="#" class="btn btn-crud btn-info" data-toggle="tooltip" data-placement="top" title="View"><i class="fa fa-search"></i></a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-crud btn-info"&gt;
+ data-toggle="tooltip" data-placement="top" title="View"&gt;
+  &lt;i class="fa fa-search"&gt;&lt;/i&gt;
+&lt;/a&gt;</pre>
+      </td>
+      
+        <td>
+        <a href="#" class="btn btn-info"><i class="fa fa-search"></i> View</a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-info"&gt;
+  &lt;i class="fa fa-search"&gt;&lt;/i&gt; View
+&lt;/a&gt;</pre>
+      </td>
+      </tr>
+      <tr>
+        <th>
+          Edit Button
+        </th>
+        <td>
+        <a href="#" class="btn btn-crud btn-primary" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil"></i></a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-crud btn-primary"&gt;
+ data-toggle="tooltip" data-placement="top" title="Edit"&gt;
+  &lt;i class="fa fa-pencil"&gt;&lt;/i&gt;
+&lt;/a&gt;</pre>
+      </td>
+        <td>
+        <a href="#" class="btn btn-primary"><i class="fa fa-pencil"></i> Edit</a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-primary"&gt;
+  &lt;i class="fa fa-pencil"&gt;&lt;/i&gt; Edit
+&lt;/a&gt;</pre>
+      </td>
+      </tr>
+      <tr>
+        <th>
+          Delete Button
+        </th>
+        <td>
+        <a href="#" class="btn btn-crud btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fa fa-trash"></i></a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-crud btn-danger"&gt;
+data-toggle="tooltip" data-placement="top" title="Delete"&gt;
+  &lt;i class="fa fa-trash"&gt;&lt;/i&gt;
+&lt;/a&gt;</pre>
+      </td>
+        <td>
+        <a href="#" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
+      </td>
+        <td>
+          <pre>&lt;a href="#" class="btn btn-danger"&gt;
+  &lt;i class="fa fa-trash"&gt;&lt;/i&gt; Delete
+&lt;/a&gt;</pre>
+      </td>
+      </tr>
+    </table>
+  </div>
+</div>
+</html>
+
+
+<style>
+.btn-crud {
+  width: 45px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.btn-boolean {
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: .7em;
+    padding-left: 10px;
+}
+
+.btn-boolean i {
+  color: #ffffff !important;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+</style>
+
+
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
